@@ -1,0 +1,14 @@
+{
+  "name": "2ndreview",
+  "version": "1.0.0",
+  "description": "Music filter",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Emanuele",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
