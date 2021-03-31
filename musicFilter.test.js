@@ -15,13 +15,11 @@ describe('Music filter', () => {
 
     it("Return [25, 30] when [10, 30], 25, 45  is passed", ()=>{
         expect(musicFilter([10, 30], 25, 45)).toEqual([25, 30])
-        
     })
 
-   
-   // array1.forEach(element => console.log(element));
+    it("Return [25, 25, 30, 40, 45, 45] when  [10, 20, 30, 40, 50, 60], 25, 45 is passed", ()=>{
+        expect(musicFilter([10, 20, 30, 40, 50, 60], 25, 45)).toEqual([25, 25, 30, 40, 45, 45])
+    })
 
 })
-
-//[10, 30], 25, 45                    | [25, 30]
 

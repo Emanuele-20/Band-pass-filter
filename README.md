@@ -4,12 +4,15 @@
 
 The company makes digital filters into Electronic music tracks for musicians. If a track or sound wave has frequencies lower than the minimum allowed those frequencies will be increased to the smallest one expected and if a track or sound wave has frequencies higher than the maximum allowed those frequencies will be decreased to the biggest one expected.
 
-* 3 inputs: 
- - music track as array of integers (one or more frequencies)
- - lower bound (integer)  
- - upper bound (integer)
+* 3 INPUTS: 
+  - music track as array of integers (one or more frequencies)
+  - lower bound (integer)  
+  - upper bound (integer)
 
-* 1 output: music track as an array with modified frequencies if needed.
+* 1 OUTPUT: music track as an array with modified frequencies if needed.
+
+## Input/Output Table
+
 
 |               INPUT                               |  OUTPUT               |
 |   :--:                                | :--:                              |
