@@ -20,6 +20,29 @@ describe('Music filter', () => {
     it("Return [25, 25, 30, 40, 45, 45] when  [10, 20, 30, 40, 50, 60], 25, 45 is passed", ()=>{
         expect(musicFilter([10, 20, 30, 40, 50, 60], 25, 45)).toEqual([25, 25, 30, 40, 45, 45])
     })
+})
+
+
+
+describe("Music Filter - Edge cases", ()=> {
+
+
+    it("Assign the default value if no lower and higher bound provided", () => {
+        expect(musicFilter([10, 30, 50, 1100])).toEqual([40, 40, 50, 1000])
+    })
+
 
 })
 
+
+
+
+
+    // it("Throws an error 'No frequencies provided', when the array of frequencies is empty", ()=> {
+
+    //     function musicFilter(){ 
+    //         musicFilter([],25,45)
+    //     }
+    //     expect(musicFilter).toThrowError("No frequencies provided.");
+
+    // })

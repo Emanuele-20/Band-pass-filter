@@ -22,7 +22,7 @@ The company makes digital filters into Electronic music tracks for musicians. If
 [50] 25, 45                         | [50]
 [10, 30], 25, 45                    | [25, 30]
 [10, 20, 30, 40, 50, 60], 25, 45    | [25, 25, 30, 40, 45, 45]
-consider edge cases                 | !!!!!!!!!!
+[ 10, 30, 50]   'defaul falue'      | [40, 40, 1000]
 
 
 
