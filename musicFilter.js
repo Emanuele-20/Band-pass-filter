@@ -1,14 +1,20 @@
 function musicFilter(musicTrack, lowerBound, higherBoudn){
     
-    let filterTrack = []
 
-    if(musicTrack[0] <  lowerBound){
+    var filterTrack = musicTrack.map(freq => {
 
-        musicTrack[0] = lowerBound
-        filterTrack.push(musicTrack[0])
-        return filterTrack
-    }
-    return musicTrack
+        if(freq < lowerBound){
+            return freq = lowerBound
+        } else if (freq > higherBoudn){
+            return freq = higherBoudn
+        } else {
+            return freq
+        }
+        
+    })
+
+    return filterTrack
+
 }
 
 module.exports = musicFilter;
