@@ -1,6 +1,4 @@
-Digital audio plug ins
-
-
+Digital audio plug
 
 Apply filter on tracks, band pass filter.
 
@@ -10,11 +8,9 @@ output: array on same music track
 INPUT   |  OUTPUT
 
 [], lower,  higher                  | [ filter - freq. ] 
-
+[30] 25, 45                         | [30]
 [10] 25 , 45                        | [25]
 [50] 25, 45                         | [50]
-[30] 25, 45                         | [30]
-[10, 30]
 [10, 20, 30, 40, 50, 60], 25, 45    |  [25, 25, 30, 40, 45, 45]
 
 
