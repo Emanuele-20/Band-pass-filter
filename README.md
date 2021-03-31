@@ -5,7 +5,7 @@ Apply filter on tracks, band pass filter.
 3 inputs: music track as array of integers (single freq)/  lower baound  (integer)/ upper bound (integer)
 output: array on same music track 
 
-INPUT   |  OUTPUT
+INPUT                               |  OUTPUT
 
 [], lower,  higher                  | [ filter - freq. ] 
 [30] 25, 45                         | [30]
