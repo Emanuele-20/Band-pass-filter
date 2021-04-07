@@ -1,6 +1,5 @@
 function musicFilter(musicTrack, lowerBound = 40, higherBoudn = 1000){
-    
-
+        
     var filterTrack = musicTrack.map(freq => {
 
         if(freq < lowerBound){

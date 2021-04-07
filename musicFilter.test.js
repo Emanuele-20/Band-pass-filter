@@ -26,23 +26,9 @@ describe('Music filter', () => {
 
 describe("Music Filter - Edge cases", ()=> {
 
-
     it("Assign the default value if no lower and higher bound provided", () => {
         expect(musicFilter([10, 30, 50, 1100])).toEqual([40, 40, 50, 1000])
     })
 
+});
 
-})
-
-
-
-
-
-    // it("Throws an error 'No frequencies provided', when the array of frequencies is empty", ()=> {
-
-    //     function musicFilter(){ 
-    //         musicFilter([],25,45)
-    //     }
-    //     expect(musicFilter).toThrowError("No frequencies provided.");
-
-    // })
